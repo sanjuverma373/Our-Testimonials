@@ -13,6 +13,13 @@
      max-width: 840px;
    }
 
+   .ff-lora{
+    font-family: 'Lora', serif;
+   }
+   .ff-nunito{
+    font-family: 'Lora', serif;
+   }
+
 
    /* spacing  */
    .spacing-03 {
@@ -54,12 +61,6 @@
 
    }
 
-   /* .blk-line{
-    width: 2px;
-    height: 10px;
-    box-flex-group: black;
-
-   } */
 
    .mx-864 {
      max-width: 864px;
