@@ -13,15 +13,14 @@
      max-width: 840px;
    }
 
-   .ff-lora{
-    font-family: 'Lora', serif;
-   }
-   .ff-nunito{
-    font-family: 'Lora', serif;
+   .ff-lora {
+     font-family: 'Lora', serif;
    }
 
+   .ff-nunito {
+     font-family: 'Lora', serif;
+   }
 
-   /* spacing  */
    .spacing-03 {
      letter-spacing: 0.3px !important;
    }
@@ -43,12 +42,8 @@
      line-height: 58px !important;
    }
 
-
-
-
-   /* varticleLine */
    .yellow-line::after {
-    content: '';
+     content: '';
      width: 291px;
      height: 6px;
      flex-shrink: 0;
@@ -58,13 +53,12 @@
      top: 75%;
      right: -2%;
      z-index: -1;
-
    }
-
 
    .mx-864 {
      max-width: 864px;
-   }  
+   }
+
    .common-img {
      position: absolute;
      right: 15%;
