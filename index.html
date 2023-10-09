@@ -3,27 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-<title>Our Testimonials</title>
-<meta name="title" content="Our Testimonials" />
-<meta name="description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
+    <title>Our Testimonials</title>
+    <meta name="title" content="Our Testimonials" />
+    <meta name="description"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://metatags.io/" />
-<meta property="og:title" content="Our Testimonials" />
-<meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
-<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Our Testimonials" />
+    <meta property="og:description"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://metatags.io/" />
-<meta property="twitter:title" content="Our Testimonials" />
-<meta property="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
-<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Our Testimonials" />
+    <meta property="twitter:description"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries," />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
-<!-- Meta Tags Generated with https://metatags.io -->
+    <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="icon" href="./assets/images/fav-icon.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -34,12 +37,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
         integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <section>
         <div class="container-xl mx-auto my-auto py-5 ">
-            <p class="m-0 p-0 fs-xl fw-900 text-black text-center  lh-58 spacing-08">Our
+            <p data-aos="flip-right" class="m-0 p-0 fs-xl fw-900 text-black text-center  lh-58 spacing-08">Our
                 <span class=" position-relative yellow-line">Testimonials</span>
             </p>
 
@@ -172,6 +176,7 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $('.slider-for').slick({
             centerMode: true,
@@ -220,6 +225,13 @@
             focusOnSelect: true
         });
 
+    </script>
+    <script>
+        AOS.init({
+            once: true,
+            disable: window.innerWidth < 768,
+            duration: 1000,
+        });
     </script>
 
 </body>
