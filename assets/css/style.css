@@ -42,6 +42,10 @@
      line-height: 58px !important;
    }
 
+   .mx-884 {
+     max-width: 700px;
+   }
+
    .yellow-line::after {
      content: '';
      width: 291px;
